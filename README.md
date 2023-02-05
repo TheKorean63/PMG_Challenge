@@ -9,3 +9,9 @@ I was able to execute the code via command line using
 ```
 python main.py ./fixtures/accessories.csv ./fixtures/clothing.csv > output.csv
 ```
+
+For testing, combinations are as followed
+* output1.csv is accessories.csv and clothing.csv
+* output2.csv is accessories.csv and household_cleaners.csv
+* output3.csv is clothing.csv and household_cleaners.csv
+* output4.csv is accessories.csv, clothing.csv, and household_cleaners.csv
