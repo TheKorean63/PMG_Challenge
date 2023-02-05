@@ -5,7 +5,7 @@ I did have to change one of the CSV files - clothing.csv. Some of the categories
 
 I wrote the code on Visual Studio Code and the version of Python used was Python 3.10.9. 
 
-I was able to execute the code via command line using 
+Shown below is an example of how the code was executed via command line.
 ```
 python main.py ./fixtures/accessories.csv ./fixtures/clothing.csv > output.csv
 ```
