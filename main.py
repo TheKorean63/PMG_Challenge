@@ -15,10 +15,10 @@ def merge_csv_files(files):
         basename = os.path.basename(file)
         
         # Open the file to read
-        with open(file, 'r') as i:
+        with open(file, 'r') as tempFile:
             
             # Creates the CSV reader object
-            reader = csv.reader(i)
+            reader = csv.reader(tempFile)
 
             # Gets the header row
             headers = next(reader)
