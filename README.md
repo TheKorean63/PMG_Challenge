@@ -15,3 +15,8 @@ For testing, combinations are as followed
 * output2.csv is accessories.csv and household_cleaners.csv
 * output3.csv is clothing.csv and household_cleaners.csv
 * output4.csv is accessories.csv, clothing.csv, and household_cleaners.csv
+
+For the Unit Testing, it is ran in command line as
+```
+python -m pytest
+```
