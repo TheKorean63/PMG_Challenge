@@ -18,5 +18,7 @@ For testing, combinations are as followed
 
 For the Unit Testing, it is ran in command line as
 ```
-python -m pytest
+pytest
 ```
+The pytest checks that the row count of the arrays are the same and checks to see if each row has its proper filename added to it.
+It runs a total of 4 tests, within each test running 2 subtests. 
